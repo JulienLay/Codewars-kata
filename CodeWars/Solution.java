@@ -1,3 +1,8 @@
+// replace("Hi!") === "H!!"
+// replace("!Hi! Hi!") === "!H!! H!!"
+// replace("aeiou") === "!!!!!"
+// replace("ABCDE") === "!BCD!"
+
 public class Solution {
     public static String replace(final String s) {
       String result = "";
