@@ -1,0 +1,16 @@
+input = 9119
+order = len(str(input))
+i = order - 1
+finalRes = ""
+newval = input
+
+
+
+while(i >= 0):
+    rest = newval // (pow(10, i))  
+    square = pow(rest, 2)
+    finalRes = finalRes + str(square)
+    newval = newval - (rest * pow(10, i))
+    i = i - 1
+  
+print (finalRes)
